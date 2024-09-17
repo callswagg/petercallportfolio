@@ -20,7 +20,7 @@ function Hero() {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
+    <section id="hero" data-aos="fade-right" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
           src={heroImg}
@@ -39,6 +39,8 @@ function Hero() {
           Vincent
           <br />
           Ifeanyi
+          <br />
+          Peter
         </h1>
         <h2>Frontend Developer</h2>
         <span>
